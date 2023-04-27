@@ -32,11 +32,13 @@ private var player: ExoPlayer? = null
 
 // ExoPlayer 객체 생성용 메소드
 private fun initializePlayer() {
+    // 미디어 TrackSelector 규칙 설정
     val trackSelector = DefaultTrackSelector(this).apply {
         setParameters(buildUponParameters().setMaxVideoSizeSd())
     }
 
     player = ExoPlayer.Builder(this)
+        // player의 TrackSelector 서렂ㅇ
         .setTrackSelector(trackSelector)
         .build()
         .also { exoPlayer ->
