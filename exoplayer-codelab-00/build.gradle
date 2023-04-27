@@ -1,0 +1,13 @@
+apply from: "${project.rootDir}/common.gradle"
+android {
+    namespace 'com.example.exoplayer'
+}
+
+dependencies {
+    def mediaVersion = "1.0.0-rc01"
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation "androidx.media3:media3-exoplayer:$mediaVersion"
+    implementation "androidx.media3:media3-ui:$mediaVersion"
+    implementation "androidx.media3:media3-exoplayer-dash:$mediaVersion"
+}
