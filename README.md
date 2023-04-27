@@ -87,7 +87,7 @@ private fun playbackStateListener() = object : Player.Listener {
 }
 
 // player 이벤트 리스너 객체 생성
-// activity 내부에서 
+// activity 내부에서 선언
 private val playbackStateListener: Player.Listener = playbackStateListener()
 
 // initializePlayer() 메소드에서 리스너 추가
