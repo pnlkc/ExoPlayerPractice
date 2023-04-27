@@ -122,6 +122,7 @@ private fun releasePlayer() {
 <br>
 
 **6. 전체화면으로 변경하는 코드 추가**
+- 코드랩에 나오는 코드가 deprecated 되어 아래 코드로 변경하여 사용해야 합니다
 ``` kotlin 
 @SuppressLint("InlinedApi")
 private fun hideSystemUi() {
