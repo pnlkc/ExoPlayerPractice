@@ -138,6 +138,7 @@ private fun hideSystemUi() {
 <br>
 
 **7. 생명주기에 맞게 ExoPlayer 처리**
+- 미디어 플레이어는 메모리, CPU, 네트워크 등 다양한 시스템 리소스를 사용하기 때문에, 앱의 수명주기에 따라 적절한 처리를 해주어야 함
 ``` kotlin
 override fun onStart() {
     super.onStart()
