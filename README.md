@@ -20,8 +20,8 @@ implementation "androidx.media3:media3-exoplayer-dash:$mediaVersion"
 <br>
 
 **2. 레이아웃 xml 파일에 androidx.media3.ui.PlayerView 추가**
-- app:use_controller="true" <= 컨트롤러 보이게 할지 설정하는 코드
-- app:show_timeout="10000" <= 컨트롤러가 사라지는데 걸리는 시간 설정하는 코드
+- app:use_controller="true" <= 컨트롤러 보이게 할지 설정하는 코드입니다
+- app:show_timeout="10000" <= 컨트롤러가 사라지는데 걸리는 시간 설정하는 코드입니다
 - app:controller_layout_id="@layout/custom_player_control_view" <= 커스텀 컨트롤러(xml) 설정하는 코드
 <br>
 
@@ -138,7 +138,7 @@ private fun hideSystemUi() {
 <br>
 
 **7. 생명주기에 맞게 ExoPlayer 처리**
-- 미디어 플레이어는 메모리, CPU, 네트워크 등 다양한 시스템 리소스를 사용하기 때문에, 앱의 수명주기에 따라 적절한 처리를 해주어야 함
+- 미디어 플레이어는 메모리, CPU, 네트워크 등 다양한 시스템 리소스를 사용하기 때문에, 앱의 수명주기에 따라 적절한 처리를 해주어야 합니다
 ``` kotlin
 override fun onStart() {
     super.onStart()
