@@ -1,5 +1,5 @@
 # ExoPlayerPractice
-[구글 코드랩](https://developer.android.com/codelabs/exoplayer-intro?hl=ko#6)을 통한 ExoPlayer 사용법을 연습한 프로젝트입니다.  
+[구글 코드랩](https://developer.android.com/codelabs/exoplayer-intro?hl=ko#6)을 통해 ExoPlayer 사용법을 연습한 프로젝트입니다.  
 
 코드랩에 나오는 버전과 현재의 버전이 달라 수정된 부분들이 존재합니다.
 <br>
