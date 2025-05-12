@@ -38,7 +38,7 @@ private fun initializePlayer() {
     }
 
     player = ExoPlayer.Builder(this)
-        // player의 TrackSelector 서렂ㅇ
+        // player의 TrackSelector 설정
         .setTrackSelector(trackSelector)
         .build()
         .also { exoPlayer ->
