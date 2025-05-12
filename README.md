@@ -153,7 +153,7 @@ override fun onStart() {
 override fun onResume() {
     super.onResume()
     hideSystemUi()
-    if (Util.SDK_INT < 24 || playe
+    if (Util.SDK_INT <= 23 || player == null) {
         initializePlayer()
     }
 }
